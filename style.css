@@ -1,0 +1,96 @@
+body {
+	text-align: left;
+	color:gray;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#main-doc {
+	margin-left:200px;
+	width:80%;
+	position:absolute;
+	padding:20px;
+	
+}
+.navbar {
+	border-right:3px solid gray;
+	cursor: pointer;
+	min-width:200px;
+	height:100%;
+	position: fixed;
+	left:0px;
+	top:0px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+
+.navbar header {
+	padding-top:15px;
+	text-align: center;
+}
+
+.navbar a {
+	margin-top:2px solid black;
+	display: block;
+	text-decoration: none;
+	color:black;
+
+}
+
+.navbar a:hover {
+	background-color:#ccc;
+}
+
+.navbar a.active{
+	background-color: #4CAF50;
+	color:white;
+}
+
+.navbar ul {
+	padding:0;
+	text-align: center;
+	font-size:27px;
+}
+
+.navbar li {
+	border:1px solid black;
+	padding:5px 5px;
+}
+
+header {
+	font-size: 22px;
+	color:black;
+}
+
+p {
+	font-size:16px;
+}
+
+li {
+	list-style: none;
+}
+
+code {
+	background: gray;
+	color:white;
+}
+
+@media only screen and (max-width: 768px) {
+
+	#main-doc {
+		margin:0 auto;
+		width:80%;
+		padding:20px;
+		position: relative;
+	}
+
+	.navbar {
+		position: relative;
+		border-right:3px solid gray;
+		cursor: pointer;
+		width:100%;
+		float:none;
+	}
+}
